@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <header>
       <form>
         <input
           type="text"
-          id="search"
+          id="searchcity"
           name="city-search"
           placeholder="Search for a country..."
         />
@@ -19,14 +20,27 @@
       </form>
     </header>
     <main>
-      <div>
-        <h1 class="cityname"></h1>
-        <p class="citycondition"></p>
-      </div>
-      <div>
-        <p class="citytemp">
-          <img src="" alt="weather icon" class="wicon" id="wicon" />
-        </p>
+      <div class="containermain1">
+        <div class="containersub1">
+          <h1 class="cityname">kabul</h1>
+               <p class="citycondition">
+            today the
+            <time datetime="dd/mm/yyy hh:mm">time</time>
+          wind speed is : <strong>1 Km/h</strong> and feels like : 20 &deg;C
+          </p>
+        </div>
+        <div class="containersub2">
+          <p class="citytemp">
+            <h2>18 &deg;C</h2>
+            <img
+              src="https://th.bing.com/th/id/R.770b805d5c99c7931366c2e84e88f251?rik=khgO%2bY1Hh3BT9w&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png&ehk=6msbAydV7X6D4bO8zvLC664aXwKOdBU17dwrHcKxaAg%3d&risl=&pid=ImgRaw&r=0"
+              alt="weather icon"
+              class="wicon"
+              id="wicon"
+              width="100px"
+            />
+          </p>
+        </div>
       </div>
       <div>
         <p class="forecast">weather forecast</p>

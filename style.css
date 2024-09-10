@@ -4,13 +4,16 @@ body {
   text-align: center;
   line-height: 40px;
 }
-#search,
-#submit {
+#search,#submit {
   font-size: 16px;
   padding: 7px;
   border-radius: 10px;
   background-color: aliceblue;
   border: none;
+}
+.containermain1 {
+  display: inline;
+  text-align: center;
 }
 ul {
   list-style: none;

@@ -1,0 +1,10 @@
+{
+  "prettier.bracketSpacing": false,
+  "prettier.bracketSameLine": false,
+  "prettier.endOfLine": "crlf",
+  "prettier.semi": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "prettier.formatOnSave": true
+}

@@ -15,23 +15,19 @@
           id="searchcity"
           name="city-search"
           placeholder="Search for a country..."
+          value="kabul"
         />
         <input type="submit" name="submit_button" id="submit" />
       </form>
     </header>
     <main>
       <div class="containermain1">
-        <div class="containersub1">
-          <h1 class="cityname">kabul</h1>
-          <p class="citycondition">
-            today the
-            <time datetime="dd/mm/yyy hh:mm">time</time>
-            wind speed is : <strong>1 Km/h</strong> and feels like :
-            <strong>20 &deg;C</strong>
-          </p>
-        </div>
         <div class="containersub2">
-          <h2 class="citytemp"><span class="tempnumber">18</span> &deg;C</h2>
+          <h1 class="cityname"></h1>
+          <h2 class="citytemp">
+            <span class="tempnumber"></span> &deg;C <br />
+            <when></when>
+          </h2>
           <img
             src="https://th.bing.com/th/id/R.770b805d5c99c7931366c2e84e88f251?rik=khgO%2bY1Hh3BT9w&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-weather-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596142qx4ep.png&ehk=6msbAydV7X6D4bO8zvLC664aXwKOdBU17dwrHcKxaAg%3d&risl=&pid=ImgRaw&r=0"
             alt="weather icon"
@@ -40,20 +36,45 @@
             width="100px"
           />
         </div>
+        <div class="containersub1">
+          <p class="citycondition">
+            It is <time></time> <br />wind speed is :
+            <strong class="windspeed">1 Km/h</strong> <br />and feels like :
+            <strong tempraturelike>20 &deg;C</strong>
+          </p>
+        </div>
       </div>
       <div>
-        <p class="forecast">Weather forecast</p>
         <ul>
+          <p class="forecast">In this Week</p>
           <li class="1day">
             <div>jhdlkj</div>
             <div>kldjldkj</div>
           </li>
-          <li class="2day">2</li>
-          <li class="3day">3</li>
-          <li class="4day">4</li>
-          <li class="5day">5</li>
-          <li class="6day">6</li>
-          <li class="7day">7</li>
+          <li class="2day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
+          <li class="3day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
+          <li class="4day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
+          <li class="5day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
+          <li class="6day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
+          <li class="7day">
+            <div class="dforecast"></div>
+            <div class="dforecast"></div>
+          </li>
         </ul>
       </div>
     </main>
